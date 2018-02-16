@@ -10,6 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datasheets", "Datasheets", 
 		..\Datasheets\README.md = ..\Datasheets\README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrared receiver", "Infrared receiver", "{0ADBEBE2-48C7-46BA-96DA-3E037082C0CC}"
+	ProjectSection(SolutionItems) = preProject
+		..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\TL1838.pdf = ..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\TL1838.pdf
+		..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\VS1838.pdf = ..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\VS1838.pdf
+		..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\VS1838B.pdf = ..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\VS1838B.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -23,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0ADBEBE2-48C7-46BA-96DA-3E037082C0CC} = {295EB9CD-ADF3-4F05-AEA9-19E7D4B9440E}
 	EndGlobalSection
 EndGlobal
