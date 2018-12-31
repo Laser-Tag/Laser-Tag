@@ -11,33 +11,63 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
-    <RootNamespace>IRReceiverTestSimple</RootNamespace>
-    <ProjectName>IRReceiverTestSimple</ProjectName>
+    <ProjectGuid>{F582B648-6782-4C76-A3D5-B9A7F980A9EB}</ProjectGuid>
+    <RootNamespace>Test_IR_Receiver_Double</RootNamespace>
+    <ProjectName>Test_IR_Receiver_Double</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>
     </PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>
-    </PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
@@ -47,8 +77,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\IRReceiverTestSimple;$(ProjectDir)..\..\..\..\..\Arduino\libraries\IRremote;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\syxko4mv.4qx\Micro Platforms\visualmicro\ide\libraries;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\libraries;$(ProjectDir)..\..\..\..\..\Arduino\libraries;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\variants\eightanaloginputs;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\avr\include;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\avr\include\avr;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.8.1\include;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.9.2\include;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>$(ProjectDir)__vm\.IRReceiverTestSimple.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Test_IR_Receiver_Double;$(ProjectDir)..\..\..\..\..\Arduino\libraries\IRremote;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\syxko4mv.4qx\Micro Platforms\visualmicro\ide\libraries;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\libraries;$(ProjectDir)..\..\..\..\..\Arduino\libraries;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\variants\eightanaloginputs;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\avr\include;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\avr\include\avr;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.8.1\include;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.9.2\include;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.Test_IR_Receiver_Double.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=8000000L;ARDUINO=10807;ARDUINO_AVR_PRO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -77,12 +107,12 @@
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="IRReceiverTestSimple.ino">
+    <None Include="Test_IR_Receiver_Double.ino">
       <FileType>CppCode</FileType>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.IRReceiverTestSimple.vsarduino.h" />
+    <ClInclude Include="__vm\.Test_IR_Receiver_Double.vsarduino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

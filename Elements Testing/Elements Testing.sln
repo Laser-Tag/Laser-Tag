@@ -17,16 +17,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrared receiver", "Infrar
 		..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\VS1838B.pdf = ..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\VS1838B.pdf
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_IR_Receiver_Double", "Test_IR_Receiver_Double\Test_IR_Receiver_Double.vcxproj", "{F582B648-6782-4C76-A3D5-B9A7F980A9EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x64.ActiveCfg = Debug|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x64.ActiveCfg = Release|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
 		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{F582B648-6782-4C76-A3D5-B9A7F980A9EB}.Debug|x64.ActiveCfg = Debug|Win32
+		{F582B648-6782-4C76-A3D5-B9A7F980A9EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{F582B648-6782-4C76-A3D5-B9A7F980A9EB}.Debug|x86.Build.0 = Debug|Win32
+		{F582B648-6782-4C76-A3D5-B9A7F980A9EB}.Release|x64.ActiveCfg = Release|Win32
+		{F582B648-6782-4C76-A3D5-B9A7F980A9EB}.Release|x86.ActiveCfg = Release|Win32
+		{F582B648-6782-4C76-A3D5-B9A7F980A9EB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
