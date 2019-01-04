@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_IR_Receiver_Double", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_sound_by_one_wire", "Test_sound_by_one_wire\Test_sound_by_one_wire.vcxproj", "{BF87BA2A-DC7B-429C-9564-C0CB350C528D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_OLED_display", "Test_OLED_display\Test_OLED_display.vcxproj", "{2D0BACEF-047C-4009-9819-B9289625B32F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -47,6 +49,12 @@ Global
 		{BF87BA2A-DC7B-429C-9564-C0CB350C528D}.Release|x64.ActiveCfg = Release|Win32
 		{BF87BA2A-DC7B-429C-9564-C0CB350C528D}.Release|x86.ActiveCfg = Release|Win32
 		{BF87BA2A-DC7B-429C-9564-C0CB350C528D}.Release|x86.Build.0 = Release|Win32
+		{2D0BACEF-047C-4009-9819-B9289625B32F}.Debug|x64.ActiveCfg = Debug|Win32
+		{2D0BACEF-047C-4009-9819-B9289625B32F}.Debug|x86.ActiveCfg = Debug|Win32
+		{2D0BACEF-047C-4009-9819-B9289625B32F}.Debug|x86.Build.0 = Debug|Win32
+		{2D0BACEF-047C-4009-9819-B9289625B32F}.Release|x64.ActiveCfg = Release|Win32
+		{2D0BACEF-047C-4009-9819-B9289625B32F}.Release|x86.ActiveCfg = Release|Win32
+		{2D0BACEF-047C-4009-9819-B9289625B32F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
