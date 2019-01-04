@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrared receiver", "Infrar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_IR_Receiver_Double", "Test_IR_Receiver_Double\Test_IR_Receiver_Double.vcxproj", "{F582B648-6782-4C76-A3D5-B9A7F980A9EB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_sound_by_one_wire", "Test_sound_by_one_wire\Test_sound_by_one_wire.vcxproj", "{BF87BA2A-DC7B-429C-9564-C0CB350C528D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -39,6 +41,12 @@ Global
 		{F582B648-6782-4C76-A3D5-B9A7F980A9EB}.Release|x64.ActiveCfg = Release|Win32
 		{F582B648-6782-4C76-A3D5-B9A7F980A9EB}.Release|x86.ActiveCfg = Release|Win32
 		{F582B648-6782-4C76-A3D5-B9A7F980A9EB}.Release|x86.Build.0 = Release|Win32
+		{BF87BA2A-DC7B-429C-9564-C0CB350C528D}.Debug|x64.ActiveCfg = Debug|Win32
+		{BF87BA2A-DC7B-429C-9564-C0CB350C528D}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF87BA2A-DC7B-429C-9564-C0CB350C528D}.Debug|x86.Build.0 = Debug|Win32
+		{BF87BA2A-DC7B-429C-9564-C0CB350C528D}.Release|x64.ActiveCfg = Release|Win32
+		{BF87BA2A-DC7B-429C-9564-C0CB350C528D}.Release|x86.ActiveCfg = Release|Win32
+		{BF87BA2A-DC7B-429C-9564-C0CB350C528D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
