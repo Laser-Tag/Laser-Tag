@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_OLED_display", "Test_O
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_Motor", "Test_Motor\Test_Motor.vcxproj", "{5773B7B5-0786-4DB0-A37A-54978309F527}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_IR_Transmitter", "Test_IR_Transmitter\Test_IR_Transmitter.vcxproj", "{E82F48DE-49C2-46D0-896B-87BA0C3A185F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -63,6 +65,12 @@ Global
 		{5773B7B5-0786-4DB0-A37A-54978309F527}.Release|x64.ActiveCfg = Release|Win32
 		{5773B7B5-0786-4DB0-A37A-54978309F527}.Release|x86.ActiveCfg = Release|Win32
 		{5773B7B5-0786-4DB0-A37A-54978309F527}.Release|x86.Build.0 = Release|Win32
+		{E82F48DE-49C2-46D0-896B-87BA0C3A185F}.Debug|x64.ActiveCfg = Debug|Win32
+		{E82F48DE-49C2-46D0-896B-87BA0C3A185F}.Debug|x86.ActiveCfg = Debug|Win32
+		{E82F48DE-49C2-46D0-896B-87BA0C3A185F}.Debug|x86.Build.0 = Debug|Win32
+		{E82F48DE-49C2-46D0-896B-87BA0C3A185F}.Release|x64.ActiveCfg = Release|Win32
+		{E82F48DE-49C2-46D0-896B-87BA0C3A185F}.Release|x86.ActiveCfg = Release|Win32
+		{E82F48DE-49C2-46D0-896B-87BA0C3A185F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
