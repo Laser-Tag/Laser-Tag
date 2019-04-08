@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_sound_by_one_wire", "T
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_OLED_display", "Test_OLED_display\Test_OLED_display.vcxproj", "{2D0BACEF-047C-4009-9819-B9289625B32F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_Motor", "Test_Motor\Test_Motor.vcxproj", "{5773B7B5-0786-4DB0-A37A-54978309F527}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -55,6 +57,12 @@ Global
 		{2D0BACEF-047C-4009-9819-B9289625B32F}.Release|x64.ActiveCfg = Release|Win32
 		{2D0BACEF-047C-4009-9819-B9289625B32F}.Release|x86.ActiveCfg = Release|Win32
 		{2D0BACEF-047C-4009-9819-B9289625B32F}.Release|x86.Build.0 = Release|Win32
+		{5773B7B5-0786-4DB0-A37A-54978309F527}.Debug|x64.ActiveCfg = Debug|Win32
+		{5773B7B5-0786-4DB0-A37A-54978309F527}.Debug|x86.ActiveCfg = Debug|Win32
+		{5773B7B5-0786-4DB0-A37A-54978309F527}.Debug|x86.Build.0 = Debug|Win32
+		{5773B7B5-0786-4DB0-A37A-54978309F527}.Release|x64.ActiveCfg = Release|Win32
+		{5773B7B5-0786-4DB0-A37A-54978309F527}.Release|x86.ActiveCfg = Release|Win32
+		{5773B7B5-0786-4DB0-A37A-54978309F527}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
