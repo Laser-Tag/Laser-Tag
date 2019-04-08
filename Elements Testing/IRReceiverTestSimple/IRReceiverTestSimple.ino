@@ -1,11 +1,11 @@
 #include <IRremote.h>
 
-#define LED_PIN 4
-#define RECEIVER_PIN 5
+#define LED_PIN 8
+#define IR_RECEIVER_PIN 9
 
 unsigned long now = 0;
 
-IRrecv irrecv(RECEIVER_PIN);
+IRrecv irrecv(IR_RECEIVER_PIN);
 
 decode_results results;
 
@@ -24,7 +24,7 @@ void setup()
 void loop() {
 	if (irrecv.decode(&results)) {
 		Serial.println(results.value, HEX);
-		if (results.value == 0xFE5AA5) {
+		if (results.value == 0xFF629D) {
 			digitalWrite(LED_PIN, !digitalRead(LED_PIN));
 		}
 		irrecv.resume(); // Receive the next value
