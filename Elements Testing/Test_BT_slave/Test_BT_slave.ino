@@ -1,17 +1,27 @@
 #include <SoftwareSerial.h>// import the serial library
 
 #define LED_PIN 13
+#define BT_STATE_PIN 12
 
 SoftwareSerial btSerial(11, 10); // RX, TX
 int btData; // the data given from Computer
+bool btConnected = false;
 
 void setup()
 {
+	pinMode(BT_STATE_PIN, INPUT);
+
 	//? Hardware serial
 	Serial.begin(9600);
 	Serial.println("Bluetooth On. Press 1 or 0 to switch LED.");
 
-	// Software serial
+	//? Software serial
+	while (!btConnected)
+	{
+		btConnected = digitalRead(BT_STATE_PIN) == HIGH;
+	}
+
+	Serial.println("HC-05 is now connected");
 	btSerial.begin(9600);
 	btSerial.println("Bluetooth On. Press 1 or 0 to switch LED.");
 	pinMode(LED_PIN, OUTPUT);
