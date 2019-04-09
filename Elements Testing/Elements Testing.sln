@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_Motor", "Test_Motor\Te
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_IR_Transmitter", "Test_IR_Transmitter\Test_IR_Transmitter.vcxproj", "{E82F48DE-49C2-46D0-896B-87BA0C3A185F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_BT_slave", "Test_BT_slave\Test_BT_slave.vcxproj", "{ECE48F04-0DAD-4096-B361-41C7572F2F33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,12 @@ Global
 		{E82F48DE-49C2-46D0-896B-87BA0C3A185F}.Release|x64.ActiveCfg = Release|Win32
 		{E82F48DE-49C2-46D0-896B-87BA0C3A185F}.Release|x86.ActiveCfg = Release|Win32
 		{E82F48DE-49C2-46D0-896B-87BA0C3A185F}.Release|x86.Build.0 = Release|Win32
+		{ECE48F04-0DAD-4096-B361-41C7572F2F33}.Debug|x64.ActiveCfg = Debug|Win32
+		{ECE48F04-0DAD-4096-B361-41C7572F2F33}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECE48F04-0DAD-4096-B361-41C7572F2F33}.Debug|x86.Build.0 = Debug|Win32
+		{ECE48F04-0DAD-4096-B361-41C7572F2F33}.Release|x64.ActiveCfg = Release|Win32
+		{ECE48F04-0DAD-4096-B361-41C7572F2F33}.Release|x86.ActiveCfg = Release|Win32
+		{ECE48F04-0DAD-4096-B361-41C7572F2F33}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
