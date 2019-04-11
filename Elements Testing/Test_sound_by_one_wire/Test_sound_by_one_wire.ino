@@ -1,9 +1,9 @@
 #include <Bounce2.h>
 #include "WT588D.h"
 
-#define WT588D_SDA	7	// Pin "P03"
-#define WT588D_BUSY	8	// Pin BUSY
-#define WT588D_RST	9	// Pin "RESET"
+#define WT588D_SDA	16	// Pin "P03"
+#define WT588D_BUSY	15	// Pin BUSY
+#define WT588D_RST	17	// Pin "RESET"
 
 #define LT_TRIGGER_PIN	5
 #define LT_TRIGGER_MODE	6

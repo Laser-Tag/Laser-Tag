@@ -1,9 +1,9 @@
 #include <SoftwareSerial.h>// import the serial library
 
 #define LED_PIN 13
-#define BT_STATE_PIN 12
+#define BT_STATE_PIN 9
 
-SoftwareSerial btSerial(11, 10); // RX, TX
+SoftwareSerial btSerial(7, 8); // RX, TX
 int btData; // the data given from Computer
 bool btConnected = false;
 
