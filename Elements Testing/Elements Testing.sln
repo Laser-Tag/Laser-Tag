@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_complex_weapon", "Test
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_complex_headbelt", "Test_complex_headbelt\Test_complex_headbelt.vcxproj", "{1FDEF6BA-535F-48B0-BFDF-40606B374C3C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_sounds", "Test_sounds\Test_sounds.vcxproj", "{1AE62DAF-4ED8-493A-9DF9-D3231068D11E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -103,6 +105,12 @@ Global
 		{1FDEF6BA-535F-48B0-BFDF-40606B374C3C}.Release|x64.ActiveCfg = Release|Win32
 		{1FDEF6BA-535F-48B0-BFDF-40606B374C3C}.Release|x86.ActiveCfg = Release|Win32
 		{1FDEF6BA-535F-48B0-BFDF-40606B374C3C}.Release|x86.Build.0 = Release|Win32
+		{1AE62DAF-4ED8-493A-9DF9-D3231068D11E}.Debug|x64.ActiveCfg = Debug|Win32
+		{1AE62DAF-4ED8-493A-9DF9-D3231068D11E}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AE62DAF-4ED8-493A-9DF9-D3231068D11E}.Debug|x86.Build.0 = Debug|Win32
+		{1AE62DAF-4ED8-493A-9DF9-D3231068D11E}.Release|x64.ActiveCfg = Release|Win32
+		{1AE62DAF-4ED8-493A-9DF9-D3231068D11E}.Release|x86.ActiveCfg = Release|Win32
+		{1AE62DAF-4ED8-493A-9DF9-D3231068D11E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
