@@ -39,6 +39,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_sounds", "Test_sounds\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_battery_level", "Test_battery_level\Test_battery_level.vcxproj", "{40D57740-F9FF-4ECB-9580-39530C02AB59}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_radio_gateway", "Test_radio_gateway\Test_radio_gateway.vcxproj", "{8522176D-494E-4E8E-989A-42B7EE1DF2F9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_radio_node", "Test_radio_node\Test_radio_node.vcxproj", "{8D31FB9F-D90A-48DB-A054-9FE202A1895E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -119,6 +123,18 @@ Global
 		{40D57740-F9FF-4ECB-9580-39530C02AB59}.Release|x64.ActiveCfg = Release|Win32
 		{40D57740-F9FF-4ECB-9580-39530C02AB59}.Release|x86.ActiveCfg = Release|Win32
 		{40D57740-F9FF-4ECB-9580-39530C02AB59}.Release|x86.Build.0 = Release|Win32
+		{8522176D-494E-4E8E-989A-42B7EE1DF2F9}.Debug|x64.ActiveCfg = Debug|Win32
+		{8522176D-494E-4E8E-989A-42B7EE1DF2F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{8522176D-494E-4E8E-989A-42B7EE1DF2F9}.Debug|x86.Build.0 = Debug|Win32
+		{8522176D-494E-4E8E-989A-42B7EE1DF2F9}.Release|x64.ActiveCfg = Release|Win32
+		{8522176D-494E-4E8E-989A-42B7EE1DF2F9}.Release|x86.ActiveCfg = Release|Win32
+		{8522176D-494E-4E8E-989A-42B7EE1DF2F9}.Release|x86.Build.0 = Release|Win32
+		{8D31FB9F-D90A-48DB-A054-9FE202A1895E}.Debug|x64.ActiveCfg = Debug|Win32
+		{8D31FB9F-D90A-48DB-A054-9FE202A1895E}.Debug|x86.ActiveCfg = Debug|Win32
+		{8D31FB9F-D90A-48DB-A054-9FE202A1895E}.Debug|x86.Build.0 = Debug|Win32
+		{8D31FB9F-D90A-48DB-A054-9FE202A1895E}.Release|x64.ActiveCfg = Release|Win32
+		{8D31FB9F-D90A-48DB-A054-9FE202A1895E}.Release|x86.ActiveCfg = Release|Win32
+		{8D31FB9F-D90A-48DB-A054-9FE202A1895E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
