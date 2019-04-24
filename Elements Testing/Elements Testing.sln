@@ -43,6 +43,54 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_radio_gateway", "Test_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_radio_node", "Test_radio_node\Test_radio_node.vcxproj", "{8D31FB9F-D90A-48DB-A054-9FE202A1895E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_complex_gateway", "Test_complex_gateway\Test_complex_gateway.vcxproj", "{65C1F245-A3F0-455C-8367-B23D8840DFE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sounds", "Sounds", "{041E78CF-28D8-4464-9683-311DD81727BA}"
+	ProjectSection(SolutionItems) = preProject
+		..\Sounds\00-abakan_shoot_single.wav = ..\Sounds\00-abakan_shoot_single.wav
+		..\Sounds\01-abakan_shoot_4long.wav = ..\Sounds\01-abakan_shoot_4long.wav
+		..\Sounds\02-ak_empty.ogg = ..\Sounds\02-ak_empty.ogg
+		..\Sounds\03-UMP45_reload.wav = ..\Sounds\03-UMP45_reload.wav
+		..\Sounds\04-nearmiss.wav = ..\Sounds\04-nearmiss.wav
+		..\Sounds\05-damage.wav = ..\Sounds\05-damage.wav
+		..\Sounds\06-dead.wav = ..\Sounds\06-dead.wav
+		..\Sounds\07-powerup.wav = ..\Sounds\07-powerup.wav
+		..\Sounds\08-gameover.wav = ..\Sounds\08-gameover.wav
+		..\Sounds\09-addhealth.wav = ..\Sounds\09-addhealth.wav
+		..\Sounds\10-addammo.wav = ..\Sounds\10-addammo.wav
+		..\Sounds\11-beep.wav = ..\Sounds\11-beep.wav
+		..\Sounds\12-buzz.wav = ..\Sounds\12-buzz.wav
+		..\Sounds\13-flag.wav = ..\Sounds\13-flag.wav
+		..\Sounds\14-cloneok.wav = ..\Sounds\14-cloneok.wav
+		..\Sounds\15-sensorfail.wav = ..\Sounds\15-sensorfail.wav
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LT.winproj", "LT.winproj", "{B6385FC7-9638-46B3-B816-FDC51B12E72C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Sounds\LT.winproj\LT.winproj = ..\Sounds\LT.winproj\LT.winproj
+		..\Sounds\LT.winproj\LT.winproj.bin = ..\Sounds\LT.winproj\LT.winproj.bin
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LT.winproj.sound", "LT.winproj.sound", "{67C5001A-9C6C-47F1-BA75-10F9E2436975}"
+	ProjectSection(SolutionItems) = preProject
+		..\Sounds\LT.winproj\LT.winproj.sound\00-abakan_shoot_single.wav = ..\Sounds\LT.winproj\LT.winproj.sound\00-abakan_shoot_single.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\01-abakan_shoot_4long.wav = ..\Sounds\LT.winproj\LT.winproj.sound\01-abakan_shoot_4long.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\02-ak_empty.wav = ..\Sounds\LT.winproj\LT.winproj.sound\02-ak_empty.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\03-UMP45_reload.wav = ..\Sounds\LT.winproj\LT.winproj.sound\03-UMP45_reload.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\04-nearmiss.wav = ..\Sounds\LT.winproj\LT.winproj.sound\04-nearmiss.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\05-damage.wav = ..\Sounds\LT.winproj\LT.winproj.sound\05-damage.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\06-dead.wav = ..\Sounds\LT.winproj\LT.winproj.sound\06-dead.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\07-powerup.wav = ..\Sounds\LT.winproj\LT.winproj.sound\07-powerup.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\08-gameover.wav = ..\Sounds\LT.winproj\LT.winproj.sound\08-gameover.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\09-addhealth.wav = ..\Sounds\LT.winproj\LT.winproj.sound\09-addhealth.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\10-addammo.wav = ..\Sounds\LT.winproj\LT.winproj.sound\10-addammo.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\11-beep.wav = ..\Sounds\LT.winproj\LT.winproj.sound\11-beep.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\12-buzz.wav = ..\Sounds\LT.winproj\LT.winproj.sound\12-buzz.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\13-flag.wav = ..\Sounds\LT.winproj\LT.winproj.sound\13-flag.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\14-cloneok.wav = ..\Sounds\LT.winproj\LT.winproj.sound\14-cloneok.wav
+		..\Sounds\LT.winproj\LT.winproj.sound\15-sensorfail.wav = ..\Sounds\LT.winproj\LT.winproj.sound\15-sensorfail.wav
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -135,11 +183,19 @@ Global
 		{8D31FB9F-D90A-48DB-A054-9FE202A1895E}.Release|x64.ActiveCfg = Release|Win32
 		{8D31FB9F-D90A-48DB-A054-9FE202A1895E}.Release|x86.ActiveCfg = Release|Win32
 		{8D31FB9F-D90A-48DB-A054-9FE202A1895E}.Release|x86.Build.0 = Release|Win32
+		{65C1F245-A3F0-455C-8367-B23D8840DFE8}.Debug|x64.ActiveCfg = Debug|Win32
+		{65C1F245-A3F0-455C-8367-B23D8840DFE8}.Debug|x86.ActiveCfg = Debug|Win32
+		{65C1F245-A3F0-455C-8367-B23D8840DFE8}.Debug|x86.Build.0 = Debug|Win32
+		{65C1F245-A3F0-455C-8367-B23D8840DFE8}.Release|x64.ActiveCfg = Release|Win32
+		{65C1F245-A3F0-455C-8367-B23D8840DFE8}.Release|x86.ActiveCfg = Release|Win32
+		{65C1F245-A3F0-455C-8367-B23D8840DFE8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0ADBEBE2-48C7-46BA-96DA-3E037082C0CC} = {295EB9CD-ADF3-4F05-AEA9-19E7D4B9440E}
+		{B6385FC7-9638-46B3-B816-FDC51B12E72C} = {041E78CF-28D8-4464-9683-311DD81727BA}
+		{67C5001A-9C6C-47F1-BA75-10F9E2436975} = {B6385FC7-9638-46B3-B816-FDC51B12E72C}
 	EndGlobalSection
 EndGlobal
