@@ -1,30 +1,23 @@
-#include <SoftwareSerial.h>// import the serial library
+#define SERIAL_BAUD   38400
 
-#define LED_PIN 13
-#define BT_STATE_PIN 16
+#define BT_STATE_PIN 5
 
-SoftwareSerial btSerial(14, 15); // RX, TX
-bool btConnected = false;
 
 void setup()
 {
 	pinMode(BT_STATE_PIN, INPUT);
+	pinMode(LED_BUILTIN, OUTPUT);
 
-	while (!btConnected)
-	{
-		btConnected = digitalRead(BT_STATE_PIN) == HIGH;
-	}
-
-	btSerial.begin(9600);
+	Serial.begin(SERIAL_BAUD);
 }
 
-void loop() {
-	while (!btConnected)
-	{
-		btConnected = digitalRead(BT_STATE_PIN) == HIGH;
-	}
-	btSerial.print(1);
-	delay(3000);
-	btSerial.print(0);
-	delay(3000);
+void loop()
+{
+	digitalWrite(LED_BUILTIN, digitalRead(BT_STATE_PIN));
+
+	Serial.print(1);
+	delay(1000);
+
+	Serial.print(0);
+	delay(1000);
 }
