@@ -12,9 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datasheets", "Datasheets", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrared receiver", "Infrared receiver", "{0ADBEBE2-48C7-46BA-96DA-3E037082C0CC}"
 	ProjectSection(SolutionItems) = preProject
-		..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\TL1838.pdf = ..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\TL1838.pdf
-		..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\VS1838.pdf = ..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\VS1838.pdf
-		..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\VS1838B.pdf = ..\Datasheets\VS1838 TL1838 VS1838B Universal Infrared Receiving Head\VS1838B.pdf
+		..\Datasheets\IR Receiver\TL1838.pdf = ..\Datasheets\IR Receiver\TL1838.pdf
+		..\Datasheets\IR Receiver\Vishay TSOP48.pdf = ..\Datasheets\IR Receiver\Vishay TSOP48.pdf
+		..\Datasheets\IR Receiver\VS1838.pdf = ..\Datasheets\IR Receiver\VS1838.pdf
+		..\Datasheets\IR Receiver\VS1838B.pdf = ..\Datasheets\IR Receiver\VS1838B.pdf
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_IR_Receiver_Double", "Test_IR_Receiver_Double\Test_IR_Receiver_Double.vcxproj", "{F582B648-6782-4C76-A3D5-B9A7F980A9EB}"
@@ -89,6 +90,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LT.winproj.sound", "LT.winp
 		..\Sounds\LT.winproj\LT.winproj.sound\13-flag.wav = ..\Sounds\LT.winproj\LT.winproj.sound\13-flag.wav
 		..\Sounds\LT.winproj\LT.winproj.sound\14-cloneok.wav = ..\Sounds\LT.winproj\LT.winproj.sound\14-cloneok.wav
 		..\Sounds\LT.winproj\LT.winproj.sound\15-sensorfail.wav = ..\Sounds\LT.winproj\LT.winproj.sound\15-sensorfail.wav
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bluetooth", "Bluetooth", "{B41AA6A9-48F3-436A-9B4F-604BF8EAA608}"
+	ProjectSection(SolutionItems) = preProject
+		..\Datasheets\Bluetooth\HC-05 AT command set.pdf = ..\Datasheets\Bluetooth\HC-05 AT command set.pdf
 	EndProjectSection
 EndProject
 Global
@@ -197,5 +203,6 @@ Global
 		{0ADBEBE2-48C7-46BA-96DA-3E037082C0CC} = {295EB9CD-ADF3-4F05-AEA9-19E7D4B9440E}
 		{B6385FC7-9638-46B3-B816-FDC51B12E72C} = {041E78CF-28D8-4464-9683-311DD81727BA}
 		{67C5001A-9C6C-47F1-BA75-10F9E2436975} = {B6385FC7-9638-46B3-B816-FDC51B12E72C}
+		{B41AA6A9-48F3-436A-9B4F-604BF8EAA608} = {295EB9CD-ADF3-4F05-AEA9-19E7D4B9440E}
 	EndGlobalSection
 EndGlobal
