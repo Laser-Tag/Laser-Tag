@@ -13,7 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BF87BA2A-DC7B-429C-9564-C0CB350C528D}</ProjectGuid>
     <RootNamespace>Test_sound_by_one_wire</RootNamespace>
-    <ProjectName>Test_sound_by_one_wire</ProjectName>
+    <ProjectName>Test_WT588D_one_wire</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

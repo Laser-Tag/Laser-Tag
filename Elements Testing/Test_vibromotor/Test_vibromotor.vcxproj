@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8522176D-494E-4E8E-989A-42B7EE1DF2F9}</ProjectGuid>
-    <RootNamespace>Test_radio_gateway</RootNamespace>
-    <ProjectName>Test_radio_gateway</ProjectName>
+    <ProjectGuid>{5773B7B5-0786-4DB0-A37A-54978309F527}</ProjectGuid>
+    <RootNamespace>Test_Motor</RootNamespace>
+    <ProjectName>Test_vibromotor</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -77,8 +77,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\Test_radio_gateway;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\libraries\SoftwareSerial\src;$(ProjectDir)..\..\..\..\..\Arduino\libraries\RFM69_LowPowerLab;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\libraries\SPI\src;$(ProjectDir)..\..\..\..\..\Arduino\libraries\SPIFlash_LowPowerLab;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\n0r0pce5.asy\Micro Platforms\visualmicro\ide\libraries;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\libraries;$(ProjectDir)..\..\..\..\..\Arduino\libraries;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\variants\eightanaloginputs;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\avr\include;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\avr\include\avr;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.8.1\include;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.9.2\include;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>$(ProjectDir)__vm\.Test_radio_gateway.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\Test_vibromotor;$(ProjectDir)..\..\..\..\..\Arduino\libraries\Bounce2;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\n0r0pce5.asy\Micro Platforms\visualmicro\ide\libraries;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\libraries;$(ProjectDir)..\..\..\..\..\Arduino\libraries;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\cores\arduino;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.23\variants\eightanaloginputs;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\avr\include;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\avr\include\avr;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.8.1\include;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.9.2\include;C:\Users\Lietotajs\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\5.4.0-atmel3.6.1-arduino2\lib\gcc\avr\4.9.3\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.Test_vibromotor.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__AVR_atmega328p__;__AVR_ATmega328P__;F_CPU=8000000L;ARDUINO=10807;ARDUINO_AVR_PRO;ARDUINO_ARCH_AVR;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -107,12 +107,12 @@
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Test_radio_gateway.ino">
+    <None Include="Test_vibromotor.ino">
       <FileType>CppCode</FileType>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.Test_radio_gateway.vsarduino.h" />
+    <ClInclude Include="__vm\.Test_vibromotor.vsarduino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

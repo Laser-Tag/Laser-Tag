@@ -1,3 +1,4 @@
+// ! Special version of library is used
 #include <IRremote.h>
 
 #define RECEIVERS 2
