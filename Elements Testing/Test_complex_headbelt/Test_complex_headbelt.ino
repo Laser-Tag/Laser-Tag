@@ -1,31 +1,68 @@
-#include <SoftwareSerial.h>
+#include <IRremote.h>
+#include <CmdMessenger.h>
 
-#define BT_STATE_PIN 16	//Connected to BT module STATE pin
-#define SS_RX_PIN 15	//Software serial RX pin. Connected to BT TX pin
-#define SS_TX_PIN 14	//Software serial TX pin. Connected to BT RX pin
-SoftwareSerial btSerial(SS_RX_PIN, SS_TX_PIN); // RX, TX
+#define SERIAL_BAUD   38400
 
-bool btConnected = false;
+#define LED_PIN_RED 17
+#define LED_PIN_GREEN 16
+#define BT_STATE_PIN 5	//Connected to BT module STATE pin
+#define IR_RECEIVER_PIN 9
+
+IRrecv irReceiver(IR_RECEIVER_PIN);
+decode_results irResults;
+
+CmdMessenger cmdMessenger = CmdMessenger(Serial);
+
+enum
+{
+	kStatus, // Command to report status
+	kSetLed,
+	kSetAmmo
+};
 
 void setup()
 {
+	Serial.begin(SERIAL_BAUD);
+
 	pinMode(BT_STATE_PIN, INPUT);
+	pinMode(LED_PIN_RED, OUTPUT);
+	pinMode(LED_PIN_GREEN, OUTPUT);
+	digitalWrite(LED_PIN_RED, LOW);
+	digitalWrite(LED_PIN_GREEN, HIGH);
 
-	while (!btConnected)
-	{
-		btConnected = digitalRead(BT_STATE_PIN) == HIGH;
-	}
+	irReceiver.enableIRIn(); // Start the IR receiver
 
-	btSerial.begin(9600);
+	cmdMessenger.printLfCr();
+
+	cmdMessenger.attach(kStatus, OnGetStatus);
+
 }
 
-void loop() {
-	while (!btConnected)
+void loop()
+{
+	cmdMessenger.feedinSerialData();
+
+	if (irReceiver.decode(&irResults))
 	{
-		btConnected = digitalRead(BT_STATE_PIN) == HIGH;
+		if (irResults.value == 0xFF629D)	// "MODE" button on remote control
+		{
+			digitalWrite(LED_PIN_RED, !digitalRead(LED_PIN_RED));
+			cmdMessenger.sendCmd(kSetLed, digitalRead(LED_PIN_RED));
+			digitalWrite(LED_PIN_GREEN, !digitalRead(LED_PIN_GREEN));
+		}
+		if (irResults.value == 0xFFA25D)	// "CH-" button on remote control
+		{
+			cmdMessenger.sendCmd(99);
+		}
+		if (irResults.value == 0xFFE21D)	// "CH+" button on remote control
+		{
+			cmdMessenger.sendCmd(kSetAmmo, 100);
+		}
+		irReceiver.resume(); // Receive the next value
 	}
-	btSerial.print(1);
-	delay(3000);
-	btSerial.print(0);
-	delay(3000);
+}
+
+void OnGetStatus()
+{
+	digitalWrite(LED_BUILTIN, cmdMessenger.readBoolArg());
 }
