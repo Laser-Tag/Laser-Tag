@@ -16,23 +16,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrared receiver", "Infrar
 		..\Datasheets\IR Receiver\VS1838B.pdf = ..\Datasheets\IR Receiver\VS1838B.pdf
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_WT588D_one_wire", "Test_sound_by_one_wire\Test_sound_by_one_wire.vcxproj", "{BF87BA2A-DC7B-429C-9564-C0CB350C528D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_WT588D_one_wire", "Tests_simple\Test_sound_by_one_wire\Test_sound_by_one_wire.vcxproj", "{BF87BA2A-DC7B-429C-9564-C0CB350C528D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_OLED_display", "Test_OLED_display\Test_OLED_display.vcxproj", "{2D0BACEF-047C-4009-9819-B9289625B32F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_OLED_display", "Tests_simple\Test_OLED_display\Test_OLED_display.vcxproj", "{2D0BACEF-047C-4009-9819-B9289625B32F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_BT_slave", "Test_BT_slave\Test_BT_slave.vcxproj", "{ECE48F04-0DAD-4096-B361-41C7572F2F33}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_BT_slave", "Tests_simple\Test_BT_slave\Test_BT_slave.vcxproj", "{ECE48F04-0DAD-4096-B361-41C7572F2F33}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_BT_master", "Test_BT_master\Test_BT_master.vcxproj", "{C67B0825-1376-4566-93AC-FF736E66C8A6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_BT_master", "Tests_simple\Test_BT_master\Test_BT_master.vcxproj", "{C67B0825-1376-4566-93AC-FF736E66C8A6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_complex_weapon", "Test_complex_weapon\Test_complex_weapon.vcxproj", "{E71B0B55-0CF9-4C16-9F34-257FAE9C26BB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_complex_weapon", "Tests_complex\Test_complex_weapon\Test_complex_weapon.vcxproj", "{E71B0B55-0CF9-4C16-9F34-257FAE9C26BB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_complex_headbelt", "Test_complex_headbelt\Test_complex_headbelt.vcxproj", "{1FDEF6BA-535F-48B0-BFDF-40606B374C3C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_complex_headbelt", "Tests_complex\Test_complex_headbelt\Test_complex_headbelt.vcxproj", "{1FDEF6BA-535F-48B0-BFDF-40606B374C3C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_sounds", "Test_sounds\Test_sounds.vcxproj", "{1AE62DAF-4ED8-493A-9DF9-D3231068D11E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_sounds", "Tests_simple\Test_sounds\Test_sounds.vcxproj", "{1AE62DAF-4ED8-493A-9DF9-D3231068D11E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_battery_level", "Test_battery_level\Test_battery_level.vcxproj", "{40D57740-F9FF-4ECB-9580-39530C02AB59}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_battery_level", "Tests_simple\Test_battery_level\Test_battery_level.vcxproj", "{40D57740-F9FF-4ECB-9580-39530C02AB59}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_complex_gateway", "Test_complex_gateway\Test_complex_gateway.vcxproj", "{65C1F245-A3F0-455C-8367-B23D8840DFE8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_complex_gateway", "Tests_complex\Test_complex_gateway\Test_complex_gateway.vcxproj", "{65C1F245-A3F0-455C-8367-B23D8840DFE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sounds", "Sounds", "{041E78CF-28D8-4464-9683-311DD81727BA}"
 	ProjectSection(SolutionItems) = preProject
@@ -85,21 +85,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bluetooth", "Bluetooth", "{
 		..\Datasheets\Bluetooth\HC-05 AT command set.pdf = ..\Datasheets\Bluetooth\HC-05 AT command set.pdf
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_IR_receiver_simple", "Test_IR_receiver_simple\Test_IR_receiver_simple.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_IR_receiver_simple", "Tests_simple\Test_IR_receiver_simple\Test_IR_receiver_simple.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_IR_transmitter", "Test_IR_transmitter\Test_IR_transmitter.vcxproj", "{E82F48DE-49C2-46D0-896B-87BA0C3A185F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_IR_transmitter", "Tests_simple\Test_IR_transmitter\Test_IR_transmitter.vcxproj", "{E82F48DE-49C2-46D0-896B-87BA0C3A185F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_IR_receiver_double", "Test_IR_receiver_double\Test_IR_receiver_double.vcxproj", "{F582B648-6782-4C76-A3D5-B9A7F980A9EB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_IR_receiver_double", "Tests_simple\Test_IR_receiver_double\Test_IR_receiver_double.vcxproj", "{F582B648-6782-4C76-A3D5-B9A7F980A9EB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_RFM69_gateway", "Test_RFM69_gateway\Test_RFM69_gateway.vcxproj", "{8522176D-494E-4E8E-989A-42B7EE1DF2F9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_RFM69_gateway", "Tests_simple\Test_RFM69_gateway\Test_RFM69_gateway.vcxproj", "{8522176D-494E-4E8E-989A-42B7EE1DF2F9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_RFM69_node", "Test_RFM69_node\Test_RFM69_node.vcxproj", "{8D31FB9F-D90A-48DB-A054-9FE202A1895E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_RFM69_node", "Tests_simple\Test_RFM69_node\Test_RFM69_node.vcxproj", "{8D31FB9F-D90A-48DB-A054-9FE202A1895E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C844FF4E-6808-4E28-8F23-8718AFCBEB86}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests_simple", "Tests_simple", "{C844FF4E-6808-4E28-8F23-8718AFCBEB86}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_vibromotor", "Test_vibromotor\Test_vibromotor.vcxproj", "{5773B7B5-0786-4DB0-A37A-54978309F527}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_vibromotor", "Tests_simple\Test_vibromotor\Test_vibromotor.vcxproj", "{5773B7B5-0786-4DB0-A37A-54978309F527}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_complex_target", "Test_complex_target\Test_complex_target.vcxproj", "{49EBC007-36D9-49C4-A5EA-7CEF629CBC1F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_complex_target", "Tests_complex\Test_complex_target\Test_complex_target.vcxproj", "{49EBC007-36D9-49C4-A5EA-7CEF629CBC1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests_complex", "Tests_complex", "{4C861E39-0FB1-4DB8-9A36-9E7224ADABAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -215,11 +217,11 @@ Global
 		{2D0BACEF-047C-4009-9819-B9289625B32F} = {C844FF4E-6808-4E28-8F23-8718AFCBEB86}
 		{ECE48F04-0DAD-4096-B361-41C7572F2F33} = {C844FF4E-6808-4E28-8F23-8718AFCBEB86}
 		{C67B0825-1376-4566-93AC-FF736E66C8A6} = {C844FF4E-6808-4E28-8F23-8718AFCBEB86}
-		{E71B0B55-0CF9-4C16-9F34-257FAE9C26BB} = {C844FF4E-6808-4E28-8F23-8718AFCBEB86}
-		{1FDEF6BA-535F-48B0-BFDF-40606B374C3C} = {C844FF4E-6808-4E28-8F23-8718AFCBEB86}
+		{E71B0B55-0CF9-4C16-9F34-257FAE9C26BB} = {4C861E39-0FB1-4DB8-9A36-9E7224ADABAF}
+		{1FDEF6BA-535F-48B0-BFDF-40606B374C3C} = {4C861E39-0FB1-4DB8-9A36-9E7224ADABAF}
 		{1AE62DAF-4ED8-493A-9DF9-D3231068D11E} = {C844FF4E-6808-4E28-8F23-8718AFCBEB86}
 		{40D57740-F9FF-4ECB-9580-39530C02AB59} = {C844FF4E-6808-4E28-8F23-8718AFCBEB86}
-		{65C1F245-A3F0-455C-8367-B23D8840DFE8} = {C844FF4E-6808-4E28-8F23-8718AFCBEB86}
+		{65C1F245-A3F0-455C-8367-B23D8840DFE8} = {4C861E39-0FB1-4DB8-9A36-9E7224ADABAF}
 		{B6385FC7-9638-46B3-B816-FDC51B12E72C} = {041E78CF-28D8-4464-9683-311DD81727BA}
 		{67C5001A-9C6C-47F1-BA75-10F9E2436975} = {B6385FC7-9638-46B3-B816-FDC51B12E72C}
 		{B41AA6A9-48F3-436A-9B4F-604BF8EAA608} = {295EB9CD-ADF3-4F05-AEA9-19E7D4B9440E}
@@ -229,5 +231,6 @@ Global
 		{8522176D-494E-4E8E-989A-42B7EE1DF2F9} = {C844FF4E-6808-4E28-8F23-8718AFCBEB86}
 		{8D31FB9F-D90A-48DB-A054-9FE202A1895E} = {C844FF4E-6808-4E28-8F23-8718AFCBEB86}
 		{5773B7B5-0786-4DB0-A37A-54978309F527} = {C844FF4E-6808-4E28-8F23-8718AFCBEB86}
+		{49EBC007-36D9-49C4-A5EA-7CEF629CBC1F} = {4C861E39-0FB1-4DB8-9A36-9E7224ADABAF}
 	EndGlobalSection
 EndGlobal
