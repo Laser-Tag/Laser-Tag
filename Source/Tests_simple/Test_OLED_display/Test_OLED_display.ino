@@ -1,6 +1,6 @@
-#include <u8x8.h>
+//#include <u8x8.h>
 #include <U8g2lib.h>
-#include <u8g2.h>
+//#include <u8g2.h>
 #include <U8x8lib.h>
 #include <Bounce2.h>
 
@@ -20,8 +20,8 @@ Bounce triggerBouncer = Bounce();
 //U8X8_SSD1306_128X64_ALT0_HW_I2C u8x8(/* reset=*/ U8X8_PIN_NONE); 	      // same as the NONAME variant, but may solve the "every 2nd line skipped" problem
 
 
-U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(SCL, SDA);
-//U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(U8X8_PIN_NONE);
+//U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(SCL, SDA);
+U8X8_SSD1306_128X64_NONAME_HW_I2C u8x8(U8X8_PIN_NONE);
 //U8X8_SSD1306_128X64_NONAME_2ND_HW_I2C u8x8(U8X8_PIN_NONE);
 
 //U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8x8(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
@@ -70,8 +70,31 @@ void setup()
 	//u8x8.setBusClock(1000);
 
 	u8x8.begin();
-	u8x8.setFont(u8x8_font_8x13B_1x2_r);
-	redraw();
+	if (digitalRead(LT_TRIGGER_MODE_PIN) == LT_TRIGGER_MODE_AUTO)
+	{
+		u8x8.setFont(u8x8_font_chroma48medium8_r);
+		u8x8.inverse();
+		u8x8.print("1234567890123456");
+		u8x8.setCursor(0, 1);
+		u8x8.print("|--------------|");
+		u8x8.setCursor(0, 2);
+		u8x8.print("0              |");
+		u8x8.setCursor(0, 3);
+		u8x8.print("|              0");
+		u8x8.setCursor(0, 4);
+		u8x8.print("|              |");
+		u8x8.setCursor(0, 5);
+		u8x8.print("|              |");
+		u8x8.setCursor(0, 6);
+		u8x8.print("|              |");
+		u8x8.setCursor(0, 7);
+		u8x8.print("0              0");
+	}
+	else
+	{
+		u8x8.setFont(u8x8_font_8x13B_1x2_r);
+		redraw();
+	}
 }
 
 void loop()
